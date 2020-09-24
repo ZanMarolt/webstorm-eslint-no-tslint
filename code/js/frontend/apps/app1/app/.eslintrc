@@ -1,0 +1,21 @@
+{
+  "extends": "../.eslintrc",
+  "rules": {
+    "@angular-eslint/directive-selector": [
+      "error",
+      {
+        "type": "OPTION_TYPE_ATTRIBUTE",
+        "prefix": "app1",
+        "style": "camelCase"
+      }
+    ],
+    "@angular-eslint/component-selector": [
+      "error",
+      {
+        "type": "OPTION_TYPE_ELEMENT",
+        "prefix": "app1",
+        "style": "kebab-case"
+      }
+    ]
+  }
+}
